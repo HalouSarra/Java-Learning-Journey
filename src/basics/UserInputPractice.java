@@ -31,17 +31,47 @@ public class UserInputPractice {
 //            System.out.println("You are not enrolled");
 //        }
         
-// Common issues
-        Scanner scanner1 = new Scanner(System.in);
-        System.out.print("Enter your age: ");
-        int age2 = scanner1.nextInt();
-        System.out.println("Enter your favorite color");
-        String color = scanner1.nextLine();
-
-
-
-
+//########## Common issues ##########
+//        Scanner scanner1 = new Scanner(System.in);
+//        System.out.print("Enter your age: ");
+//        int age2 = scanner1.nextInt();
+//        scanner1.nextLine();
+//        System.out.print("Enter your favorite color: ");
+//        String color = scanner1.nextLine();
+//
+//
+//        System.out.println("You are " + age2 +" years old.");
+//        System.out.println("You like the color " + color +".");
+//
+//
 //        scanner.close();
-        scanner1.close();
+//        scanner1.close();
+
+//########## Calculate area of a rectangle ##########
+        double width = 0;
+        double height = 0;
+        double area = 0;
+
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("Enter the width: ");
+        width= scanner2.nextDouble();
+
+        System.out.print("Enter the height: ");
+        height= scanner2.nextDouble();
+
+        area= width*height;
+        System.out.println("The area is: " + area +"cm²");
+
+
+
+
+
+
+        scanner2.close();
+
+
+
+
+
     }
 }
