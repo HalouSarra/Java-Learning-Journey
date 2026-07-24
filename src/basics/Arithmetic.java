@@ -16,11 +16,34 @@ public class Arithmetic {
 
         //Augmented Assignment Operators
 //        x += y;//x = x + y;
-        x -= y;
+//        x -= y;
+//        x *= y;
+//        x *= y;
+//        x /= y;
+//        x %= y;
+
+//        System.out.println(x);
+
+        //Increment and Decrement Operators
+//        int x1 = 1;
+//        x1++;
+//        x1++;
+//        x1++;
+//        x1--;
+//        x1--;
+//        x1--;
+//        x1--;
+//        x1--;
+//        System.out.println(x1);
+
+        //Order of Operations [P-E-M-D-A-S]
+        double result = 3 + 4 * (7 - 5) / 2.0;
+        System.out.println(result);
 
 
 
-        System.out.println(x);
+
+
 
 
 
