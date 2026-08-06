@@ -16,6 +16,5 @@ public class Constructors {
         student1.study();
         student2.study();
         student3.study();
-
     }
 }
