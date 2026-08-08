@@ -6,6 +6,7 @@ public class Animal extends Organism{
         System.out.println("The animal is eating");
     }
 
-
-
+    void move(){
+        System.out.println("The animal is running");
+    }
 }
