@@ -16,7 +16,5 @@ public class ToStringMethod {
         System.out.println(car2);
         System.out.println(car1.toString());// you do not need to write the method name
         System.out.println(car1.color + " " + car1.year + " " + car1.make + " " + car1.model);
-
-
     }
 }
